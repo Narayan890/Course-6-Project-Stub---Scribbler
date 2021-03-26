@@ -1,0 +1,113 @@
+/*Enter your code here*/
+
+body {
+    background-image: url('../images/background.jpg');
+    overflow: hidden;
+    width: 100%;
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    width: 95%;
+    font-size: 1.2rem;
+}
+
+.buttons {
+    padding: 10px;
+}
+
+.topButtons {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+    width: 100px;
+    border: none;
+}
+
+.header .text .logo-title {
+    float: left;
+    color: blue;
+    font-size: 50px;
+    font-family: Satisfy;
+}
+
+.middleText {
+    color: black;
+    font-family: Satisfy;
+}
+
+h5 {
+    text-align: center;
+}
+
+.modal,
+.modal-body,
+form,
+.btn {
+    width: 100%;
+}
+
+form .form-control {
+    background-color: #F4F6F6;
+    border: none;
+}
+
+form label {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+form .footer {
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.modal .modal-header .modal-title {
+    margin-left: 30%;
+    font-style: inherit;
+}
+
+.center {
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.center-Buttons {
+    background-color: #F1C40F;
+    color: black;
+    font-weight: 600;
+    padding: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+form .form-control2 {
+    background-color: #F4F6F6;
+}
+
+form .form-control1 {
+    background-color: #F4F6F6;
+    border: none;
+    width: 300px;
+}
+
+form .btn1 {
+    border: none;
+    text-align: center;
+    margin-left: 37%;
+    padding: 10px;
+    width: 100px;
+}
