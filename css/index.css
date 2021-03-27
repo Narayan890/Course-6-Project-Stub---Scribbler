@@ -3,39 +3,9 @@
 body {
     background-image: url('../images/background.jpg');
     overflow: hidden;
-    width: 100%;
-}
-
-.header {
-    justify-content: space-between;
-    display: flex;
-    width: 95%;
-    font-size: 1.2rem;
-}
-
-.buttons {
-    padding: 10px;
-}
-
-.topButtons {
-    background-color: blue;
-    color: white;
-    cursor: pointer;
-    padding: 6px;
-    width: 100px;
-    border: none;
-}
-
-.header .text .logo-title {
-    float: left;
-    color: blue;
-    font-size: 50px;
-    font-family: Satisfy;
-}
-
-.middleText {
-    color: black;
-    font-family: Satisfy;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 h5 {
@@ -91,7 +61,6 @@ form .footer {
     padding: 7px;
     margin-left: 10px;
     cursor: pointer;
-    border: none;
 }
 
 form .form-control2 {
