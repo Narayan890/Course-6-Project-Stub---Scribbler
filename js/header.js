@@ -3,7 +3,7 @@ var signInModal =
     '<div id="signinModal" class="modal">' +
     '<div id="modal-content">' +
     '  <div class="modal-header">' +
-    '    <div class="close">&times;</div>' +
+    '    <div class="close1">&times;</div>' +
     '    <h2 class="modal-heading">Welcome Back!</h2>' +
     '    <hr>' +
     '  </div>' +
@@ -38,7 +38,7 @@ var signUpModal =
     '<div id="signupModal" class="modal">' +
     '<div id="modal-content">' +
     '  <div class="modal-header">' +
-    '    <div class="close">&times;</div>' +
+    '    <div class="close1">&times;</div>' +
     '    <h2 class="modal-heading">Get Started</h2>' +
     '    <hr>' +
     '  </div>' +
@@ -78,9 +78,8 @@ document.getElementById("mainparent-signup").innerHTML = signUpModal;
 
 
 var signInButton = document.getElementById("signin");
-const closeSignInButton = document.getElementsByClassName("close")[0];
-const closeSignUpButton = document.getElementsByClassName("close")[1];
-const closeCreatePostButton = document.getElementsByClassName("close")[2];
+const closeSignInButton = document.getElementsByClassName("close1")[0];
+const closeSignUpButton = document.getElementsByClassName("close1")[1];
 var signInModal = document.getElementById("signinModal");
 var signUpButton = document.getElementById("signup");
 var signUpModal = document.getElementById("signupModal");

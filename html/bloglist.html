@@ -2,7 +2,7 @@
 <html>
 
 <head>
-
+    <title>BlogList</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="../css/bloglist.css">
     <link rel="stylesheet" href="../css/header.css">
@@ -22,6 +22,8 @@
     </head>
 
     <body>
+        <div id="mainparent-signin"></div>
+        <div id="mainparent-signup"></div>
 
         <div class="header">
             <!-- Logo text div -->
@@ -32,13 +34,14 @@
 
             <!-- Button div -->
             <div class="buttons">
-                <button type="button" class="topButtons" data-toggle="modal" data-target="#exampleModal" id="sign-in-button">
+                <button class="topButtons" id="signin">
                     Sign In
                   </button>
-                <button type="button" class="topButtons" data-toggle="modal" data-target="#exampleModalSignUp" id="sign-up-button">
+                <button class="topButtons" id="signup">
                         Sign Up
                       </button>
             </div>
+
         </div>
         <!-- Post container is the parent of all container and post-post are the container -->
         <div class="post-container">
