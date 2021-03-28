@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="../css/bloglist.css">
     <link rel="stylesheet" href="../css/header.css">
@@ -21,6 +22,7 @@
     </head>
 
     <body>
+
         <div class="header">
             <!-- Logo text div -->
             <div class="text">
@@ -157,10 +159,25 @@
         </div>
 
 
+        <!--Delete modal-->
+        <div id="deleteModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="delete-modal-heading">Are you sure you want to delete the post?</p>
+                </div>
+                <div class="modal-body">
+                    <button id="yes-delete">Yes</button>
+                    <span class="close"><button id="no-delete">No</button></span>
+                </div>
+            </div>
+
         </div>
 
-        <script src="../scripts/js/header.js"></script>
-        <script src="../scripts/js/bloglist.js"></script>
+
+        <script src="../js/header.js"></script>
+        <script src="../js/bloglist.js"></script>
     </body>
 
 </html>
